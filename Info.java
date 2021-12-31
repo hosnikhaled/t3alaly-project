@@ -5,50 +5,50 @@ public class Info {
     int mobileNumber;
     String Email;
     String Password;
-    public Info()
-    {
+
+    public Info() {
         userName = "";
         mobileNumber = 0;
         Email = "";
         Password = "";
     }
-    public Info(String name,int phone,String email,String Pass)
-    {
+
+    public Info(String name, int phone, String email, String Pass) {
         userName = name;
         mobileNumber = phone;
         Email = email;
         Password = Pass;
     }
-    public void setUserName(String name)
-    {
+
+    public void setUserName(String name) {
         userName = name;
     }
-    public String getUserName()
-    {
+
+    public String getUserName() {
         return userName;
     }
-    public void setMobileNumber(int phone)
-    {
+
+    public void setMobileNumber(int phone) {
         mobileNumber = phone;
     }
-    public int getMobileNumber()
-    {
+
+    public int getMobileNumber() {
         return mobileNumber;
     }
-    public void setEmail(String email)
-    {
+
+    public void setEmail(String email) {
         Email = email;
     }
-    public String getEmail()
-    {
+
+    public String getEmail() {
         return Email;
     }
-    public void setPassword(String Pass)
-    {
+
+    public void setPassword(String Pass) {
         Password = Pass;
     }
-    public String getPassword()
-    {
+
+    public String getPassword() {
         return Password;
     }
 }
